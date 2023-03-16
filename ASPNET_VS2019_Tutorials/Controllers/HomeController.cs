@@ -33,5 +33,12 @@ namespace ASPNET_VS2019_Tutorials.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        //Lesson 1: add a new action on Controller and creating the view for that action
+
+        public IActionResult firstAction()
+        {
+            return View();
+        }
     }
 }
