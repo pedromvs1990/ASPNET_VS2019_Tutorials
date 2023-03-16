@@ -1,3 +1,4 @@
+using ASPNET_VS2019_Tutorials.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -23,6 +24,7 @@ namespace ASPNET_VS2019_Tutorials
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IMyServiceDistricts, MyServiceDistricts>(); //Lesson2 : Configure a Service
             services.AddControllersWithViews();
         }
 
