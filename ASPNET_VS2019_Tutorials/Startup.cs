@@ -54,16 +54,13 @@ namespace ASPNET_VS2019_Tutorials
             //    await context.Response.WriteAsync("Over");
             //});
 
-            app.Map("/ex", (map) =>
-            {
-                map.Run(async (context) =>
-                {
-                    await context.Response.WriteAsync("Hello Again World");
-                });
-             });
-            
-
-                
+            //app.Map("/ex", (map) =>
+            //{
+            //    map.Run(async (context) =>
+            //    {
+            //        await context.Response.WriteAsync("Hello Again World");
+            //    });
+            // });
 
             //////////////////////////////////////////////////////////////////////////////////////////////////
 
