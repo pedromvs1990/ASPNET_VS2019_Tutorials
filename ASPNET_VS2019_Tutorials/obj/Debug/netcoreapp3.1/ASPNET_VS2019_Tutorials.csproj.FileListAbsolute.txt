@@ -8,7 +8,6 @@ C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\bin\
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\bin\Debug\netcoreapp3.1\ASPNET_VS2019_Tutorials.pdb
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\bin\Debug\netcoreapp3.1\ASPNET_VS2019_Tutorials.Views.dll
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\bin\Debug\netcoreapp3.1\ASPNET_VS2019_Tutorials.Views.pdb
-C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\ASPNET_VS2019_Tutorials.csproj.AssemblyReference.cache
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\ASPNET_VS2019_Tutorials.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\ASPNET_VS2019_Tutorials.AssemblyInfoInputs.cache
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\ASPNET_VS2019_Tutorials.AssemblyInfo.cs

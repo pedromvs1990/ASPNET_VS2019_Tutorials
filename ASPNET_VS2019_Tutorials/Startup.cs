@@ -1,6 +1,7 @@
 using ASPNET_VS2019_Tutorials.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -31,6 +32,42 @@ namespace ASPNET_VS2019_Tutorials
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+
+            //Lesson 2: Adding Programmatic Configuration
+
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("Hello"+"\n");
+            //    await next.Invoke();
+
+            //});
+
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("World" + "\n");
+            //    await next.Invoke();
+            //});
+
+            //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("Over");
+            //});
+
+            app.Map("/ex", (map) =>
+            {
+                map.Run(async (context) =>
+                {
+                    await context.Response.WriteAsync("Hello Again World");
+                });
+             });
+            
+
+                
+
+            //////////////////////////////////////////////////////////////////////////////////////////////////
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -40,6 +77,7 @@ namespace ASPNET_VS2019_Tutorials
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
+
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
