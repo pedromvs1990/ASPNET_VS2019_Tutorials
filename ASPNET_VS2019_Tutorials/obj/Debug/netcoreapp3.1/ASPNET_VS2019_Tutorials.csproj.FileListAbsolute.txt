@@ -36,3 +36,7 @@ C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\ASPNET_VS2019_Tutorials.csproj.CopyComplete
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\ASPNET_VS2019_Tutorials.csproj.AssemblyReference.cache
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\ActionsResultsTypes\ReturnView.cshtml.g.cs
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Parameters\Index.cshtml.g.cs
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Parameters\ClientRegister.cshtml.g.cs
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Parameters\ClientRegisterGet.cshtml.g.cs
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Parameters\ClientRegisterPost.cshtml.g.cs
