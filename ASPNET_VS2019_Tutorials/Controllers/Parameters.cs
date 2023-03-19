@@ -29,13 +29,16 @@ namespace ASPNET_VS2019_Tutorials.Controllers
             return Content(_id +"\n"+_name+"\n"+_age);
         }
         //QueryString: https://localhost:44395/parameters/index2?id=1&name=Pedro&age=32
-        //MVC Route notation:https://localhost:44395/parameters/index2/1?name=Pedro
+        //MVC Route notation:https://localhost:44395/parameters/index2/1?name=Pedro&age=32
 
+
+        //receive data by the action parameters (recommended)
         public IActionResult ClientRegister(int id, string name, string address, int age)
         {
             return View();
         }
 
+       
         public IActionResult ShowClient(int id, string name, string address, int age)
         {
             int _id = id;
@@ -45,6 +48,8 @@ namespace ASPNET_VS2019_Tutorials.Controllers
             return Content("Customer Id: " + _id + "\n" + "Customer Name: " + _name + "\n" + "Customer Address: " + _address + "\n" + "Customer Age: " + _age);
         }
 
+
+        //receive data by Request.Form (POST)
         public IActionResult ClientRegisterPost(int id, string name, string address, int age)
         {
             return View();
@@ -59,6 +64,8 @@ namespace ASPNET_VS2019_Tutorials.Controllers
 
             return Content("Customer Id: " + id + "\n" + "Customer Name: " + name + "\n" + "Customer Address: " + address + "\n" + "Customer Age: " + age);
         }
+
+        //receive data by Request.Query (GET)
 
         public IActionResult ClientRegisterGet(int id, string name, string address, int age)
         {
