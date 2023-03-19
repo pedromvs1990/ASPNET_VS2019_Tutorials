@@ -88,7 +88,26 @@ namespace ASPNET_VS2019_Tutorials
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                //Lesson 3: Configuring Routes
+
+                endpoints.MapControllerRoute(
+                   name: "ViewTimePage",
+                   pattern: "ViewTime",
+                   defaults: new { controller = "ViewData", action = "Index" });
+
+                endpoints.MapControllerRoute(
+                    name: "NewClient",
+                    pattern: "NewClient",
+                    defaults: new { controller = "Parameters", action = "ClientRegister" });
+
+                endpoints.MapControllerRoute(
+                    name: "GetId",
+                    pattern: "GetId/{id}",
+                    defaults: new { controller = "Parameters", action = "Index" });
             });
         }
     }
 }
+            
+   
