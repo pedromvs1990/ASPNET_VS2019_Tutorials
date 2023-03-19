@@ -55,3 +55,5 @@ C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Helpers\HTMLHelper_Param.cshtml.g.cs
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Helpers\TagHelper.cshtml.g.cs
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Helpers\TagHelper_Param.cshtml.g.cs
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\PartialView\Index.cshtml.g.cs
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PartialViewExample.cshtml.g.cs
