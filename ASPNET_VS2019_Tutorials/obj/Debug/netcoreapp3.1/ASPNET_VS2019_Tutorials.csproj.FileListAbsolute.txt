@@ -42,3 +42,9 @@ C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\ViewBag\Index.cshtml.g.cs
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\ViewData\Index.cshtml.g.cs
 C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\ViewBag\Index2.cshtml.g.cs
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\ASPNET_VS2019_Tutorials.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Views\Index.cshtml.g.cs
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Views\Index2.cshtml.g.cs
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Views\Index1.cshtml.g.cs
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Views\Index3.cshtml.g.cs
+C:\Users\pedro\source\repos\ASPNET_VS2019_Tutorials\ASPNET_VS2019_Tutorials\obj\Debug\netcoreapp3.1\Razor\Views\Views\Index4.cshtml.g.cs

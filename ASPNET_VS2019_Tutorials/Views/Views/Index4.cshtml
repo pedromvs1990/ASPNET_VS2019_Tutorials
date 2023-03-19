@@ -1,0 +1,23 @@
+﻿
+<h1>For in a View</h1>
+
+@for (int i = 1; i <= 10; i++)
+{
+                <label>Line number @i</label>
+                <br />
+
+}
+
+<hr>
+<h1>Do/While in a View</h1>
+
+
+@{
+    int a = 11;
+    @do
+    {
+       <label>Line number @a</label>
+       <br />
+        a += 1;
+    }while (a <= 20);
+    }
